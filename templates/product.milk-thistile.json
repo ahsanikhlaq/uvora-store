@@ -12,6 +12,12 @@
     "main": {
       "type": "el-product-offer",
       "blocks": {
+        "new_heading_MEEUQz": {
+          "type": "new-heading",
+          "settings": {
+            "new-heading": "<p>Feel Lighter, Energized, and Less Bloated in <strong>14 Days</strong></p>"
+          }
+        },
         "reviews_77rNAf": {
           "type": "reviews",
           "settings": {
@@ -38,10 +44,19 @@
         },
         "product_description_GrtaH8": {
           "type": "product-description",
+          "disabled": true,
           "settings": {
             "description": "<p>Clinically backed 80% silymarin formula that supports liver function, reduces bloating, and boosts energy.</p>",
             "margin_desktop": 16,
             "margin_mobile": 12
+          }
+        },
+        "formula_container_z6mgtX": {
+          "type": "formula-container",
+          "settings": {
+            "svg": "shopify://shop_images/download.svg",
+            "fm-heading": "USA's Top Rated Liver Detox Formula",
+            "fm-des": "Clinically backed 80% silymarin formula that supports liver function, reduces bloating, and boosts energy."
           }
         },
         "divider_k3p7TR": {
@@ -195,10 +210,12 @@
         }
       },
       "block_order": [
+        "new_heading_MEEUQz",
         "reviews_77rNAf",
         "product_eyebrow_kk9TKq",
         "product_title_HRVf6V",
         "product_description_GrtaH8",
+        "formula_container_z6mgtX",
         "divider_k3p7TR",
         "product_lists_ytaBxH",
         "product_form_MctMjT",
