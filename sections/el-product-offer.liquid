@@ -6,6 +6,81 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 {%- endcomment -%}
 
+
+
+<style>
+  .p-new-heading{
+    margin: 0;
+  }
+  .p-new-heading p{
+    color: #3c3c3c;
+    font-family: SF Pro;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -2px;
+    margin: 0;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    max-width: 100%;
+  }
+  .p-new-heading p strong{
+    color: #b4d014;
+  }
+  .fm-heading-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.fm-heading-wrap h4{
+      margin: 0;
+    color: #1c1c1a;
+    font-family: Inter Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    /* margin-bottom: 4px; */
+    color: #b4d014;
+}
+p.fm-des {
+    margin: 0;
+    color: #1c1c1a;
+    font-family: Inter Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%;
+    letter-spacing: 0px;
+    padding-top: 5px;
+}
+.formula-container-wrapper {
+    border-radius: 3px;
+    border: 0.3px solid rgba(11, 93, 2, 0.50);
+    background: linear-gradient(90deg, #FAFAFA 0%, #FFF 100%);
+    padding: 14px 20px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+  @media screen and (max-width: 768px) {
+   .p-new-heading p{
+     font-size: 28px;
+  }
+  .formula-container-wrapper {
+    padding: 11px;
+  }
+
+  .fm-heading-wrap h4 {
+    font-size: 16px;
+  }
+  p.fm-des {
+    font-size: 15px;
+  }
+  }
+</style>
+
 {% liquid
   assign product = section.settings.product
   assign enable_kaching = section.settings.enable_kaching
@@ -58,7 +133,42 @@
                   {% render 'el-divider', block: block, product: product %}
                 {% when 'product-lists' %}
                   {% render 'el-product-lists', block: block, product: product %}
+
+
+                  {% when 'new-heading' %}
+
+              <h3 class="p-new-heading">
+                 {{ block.settings.new-heading }}
+              </h3>
+            
+
+              {% when 'formula-container' %}
+
+               <div class="formula-container-wrapper">
+
+                <div class="fm-heading-wrap">
+                  {% if block.settings.svg %}
+                  <img src="{{  block.settings.svg | image_url }}" width="auto" height="auto">
+                  {% endif %}
+                  <h4>
+                    {{ block.settings.fm-heading }}
+                  </h4>
+                </div>
+                <p class="fm-des">
+                  {{ block.settings.fm-des }}
+                </p>
+
+               </div>
+  
+
+
               {% endcase %}
+                
+          
+
+
+
+
             {% endfor %}
           </div>
           {% for block in section.blocks %}
@@ -328,6 +438,38 @@
           "label": "Free products",
           "info": "leave blank if not needed"
         },
+      ]
+    },
+    {
+      "type": "new-heading",
+      "name": "new heading",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "new-heading",
+          "label": "new heading"
+        }
+      ]
+    },
+    {
+      "type": "formula-container",
+      "name": "formula container",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "svg",
+          "label": "svg"
+        },
+        {
+          "type": "text",
+          "id": "fm-heading",
+          "label": "heading"
+        },
+        {
+          "type": "text",
+          "id": "fm-des",
+          "label": "description"
+        }
       ]
     },
     {
