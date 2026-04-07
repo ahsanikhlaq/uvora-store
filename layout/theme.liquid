@@ -1184,7 +1184,7 @@ function hookUpcartCheckout() {
       {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
     {%- endif -%}
 
-    {%- if template contains 'index' or template.suffix contains 'el-' or template.suffix == 'milk-thistile' or template.suffix == 'parasite' -%}
+    {%- if template contains 'index' or template.suffix contains 'el-' or template.suffix == 'milk-thistile' or template.suffix == 'new-milk-thistle' or template.suffix == 'parasite' -%}
       {{ 'el-fonts.css' | asset_url | stylesheet_tag }}
       {{ 'el-global.css' | asset_url | stylesheet_tag }}
     {% endif %}
@@ -1291,7 +1291,7 @@ function hookUpcartCheckout() {
       {%- render 'cart-drawer' -%}
     {%- endif -%}
     
-    {%- if template contains 'index' or template.suffix contains 'el-' or template.suffix == 'milk-thistile' or template.suffix == 'parasite' -%}
+    {%- if template contains 'index' or template.suffix contains 'el-' or template.suffix == 'milk-thistile' or template.suffix == 'new-milk-thistle'  or template.suffix == 'parasite' -%}
       {% sections 'el-header-group' %}
     {% else %}
       {% sections 'header-group' %}
@@ -1304,7 +1304,7 @@ function hookUpcartCheckout() {
     
      {% sections 'popup-group' %}
 
-    {%- if template contains 'index' or template.suffix contains 'el-' or template.suffix == 'milk-thistile' or template.suffix == 'parasite' -%}
+    {%- if template contains 'index' or template.suffix contains 'el-' or template.suffix == 'milk-thistile' or template.suffix == 'new-milk-thistle' or template.suffix == 'parasite' -%}
       {% sections 'el-footer-group' %}
     {% else %}
       {% sections 'footer-group' %}
