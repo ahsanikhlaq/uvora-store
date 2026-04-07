@@ -1,0 +1,15 @@
+<div class="product-offer__sticky mobile-display" {{ block.shopify_attributes }}>
+  {% if block.settings.image != blank %}
+    <img src="{{ block.settings.image | image_url }}" width="100%" height="auto" alt="{{ block.settings.image.alt | default: 'sticky-img' }}" fetchpriority="low" loading="lazy" />
+  {% else %}
+    <img src="{{ product.featured_image | image_url }}" width="100%" height="auto" alt="{{ product.featured_image.alt | default: 'sticky-img' }}" fetchpriority="low" loading="lazy" />
+  {% endif %}
+
+  <a href="{{ btn_link | default: '#product-offer' }}" class="product-offer__sticky-button section-description">
+    <span>{{ block.settings.btn_text }}</span>
+    <span class="el-svg">
+      {% render 'el-icon', icon: 'shield', color: '#B4D014' %}
+      {{ block.settings.btn_subtext }}
+    </span>
+  </a>
+</div>

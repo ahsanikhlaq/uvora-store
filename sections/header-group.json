@@ -1,0 +1,88 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "countdown_timer_Tfc7Ld": {
+      "type": "countdown-timer",
+      "settings": {
+        "color_scheme": "scheme-c4645ab4-31c7-4380-9709-90c3d26a7032",
+        "layout": "full_bleed",
+        "max_width": 600,
+        "show_border": true,
+        "timer_border": "#f2f2f2",
+        "video_border": 0,
+        "message_main": "<p>🐣 EASTER DAY SALE ENDS TONIGHT!</p>",
+        "timer_text_size": 15,
+        "timer_text_size_mb": 15,
+        "text_layout": "left",
+        "text_layout_mb": "center",
+        "date": "2026-12-30",
+        "number_size": "small",
+        "font_style": "normal",
+        "timer_size": 1,
+        "timer_size_mb": 0.8,
+        "timer_days": "",
+        "hide_days": true,
+        "timer_hrs": "HRS",
+        "timer_min": "MIN",
+        "timer_sec": "SEC",
+        "head_font": false,
+        "timer_color": "#212121",
+        "timer_bg": "#ffbf00",
+        "message": "",
+        "message_size": 20,
+        "padding_top": 8,
+        "padding_bottom": 8,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [],
+      "settings": {
+        "logo_position": "middle-left",
+        "hide_search": false,
+        "menu": "main-menu",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": false,
+        "transparent_header": "transparent_header_home",
+        "content_color": "#212121",
+        "menu_type_desktop": "dropdown",
+        "menu_hover": true,
+        "mega_columns": "20",
+        "menu_align": "start",
+        "extended-megamenu-show-imgs": "yes",
+        "link_img_size": 100,
+        "img_radius": 4,
+        "mega_menu_head_size": 23,
+        "head_menu_bold": true,
+        "mega_menu_link_size": 14,
+        "menu_bold": false,
+        "mega_menu_head_color": "#ffffff",
+        "mega_menu_link_color": "#ffffff",
+        "color_scheme": "scheme-1cc0fa09-3abc-4542-a47a-dfef92ecbb21",
+        "menu_color_scheme": "scheme-1cc0fa09-3abc-4542-a47a-dfef92ecbb21",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 4,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "countdown_timer_Tfc7Ld",
+    "header"
+  ]
+}

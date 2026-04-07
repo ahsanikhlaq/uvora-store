@@ -1,0 +1,18 @@
+<style>
+  .lists-{{ block.id }} { margin-bottom: {{ block.settings.margin_desktop }}px }
+  @media (max-width: 980px) {
+    .lists-{{ block.id }} { margin-bottom: {{ block.settings.margin_mobile }}px }
+  }
+</style>
+
+<div class="product-offer__lists section-description lists-{{ block.id }}" {{ block.shopify_attributes }}>
+  {% assign lists = block.settings.lists | strip | newline_to_br | split: '<br />' %}
+  <ul>
+    {% for list in lists %}
+      <li class="el-svg">
+        {% render 'el-icon', icon: 'check' %}
+        <span>{{ list }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

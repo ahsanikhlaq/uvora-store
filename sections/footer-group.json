@@ -1,0 +1,112 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "back_to_top_Ca7nbV": {
+      "type": "back-to-top",
+      "settings": {
+        "hide_on_mobile": false,
+        "show_when_precent_of_page": 60,
+        "button_position": "center",
+        "button_bg_color": "#ffffff",
+        "button_border_color": "#dddddd",
+        "icon_color": "#000000",
+        "button_diameter": 48,
+        "icon_size": 24,
+        "horizontal_padding": 20,
+        "vertical_padding": 100
+      }
+    },
+    "waves_7mL9F3": {
+      "type": "waves",
+      "settings": {
+        "wave_color": "#cad875",
+        "wave_height": 51,
+        "wave_speed": 10,
+        "padding_top": 52,
+        "padding_bottom": 12
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text_E6jHWE": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p>\"These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.\"</p>"
+          }
+        },
+        "link_list_YkcPW4": {
+          "type": "link_list",
+          "disabled": true,
+          "settings": {
+            "heading": "\"These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, or prevent any disease.\"",
+            "menu": "footer"
+          }
+        },
+        "0dfe9e9f-d96e-442f-be6e-881afaba1771": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Menu",
+            "menu": "footer"
+          }
+        },
+        "text_y3qDPH": {
+          "type": "text",
+          "settings": {
+            "heading": "Need to Get in Touch?",
+            "subtext": "<p><strong>support@getuvora.com</strong></p><p>We are available:</p><p>Mon-Fri 9AM-5PM EST</p><p>815 Superior Ave, 430-F, Cleveland Ohio 44114, United States</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_E6jHWE",
+        "link_list_YkcPW4",
+        "0dfe9e9f-d96e-442f-be6e-881afaba1771",
+        "text_y3qDPH"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "show_collapse": true,
+        "show_border": false,
+        "show_body_font": "head",
+        "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "original": "custom",
+        "payment_icon": "visa,master,apple_pay,shopify-pay,google-pay",
+        "custom_icon_1_width": 34,
+        "custom_icon_2_width": 34,
+        "custom_icon_3_width": 34,
+        "hide_shopify": true,
+        "copyright": "",
+        "show_bottom_text": false,
+        "bottom_text": "",
+        "color_bottom_text": "#868686",
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 60,
+        "padding_bottom": 12
+      }
+    }
+  },
+  "order": [
+    "back_to_top_Ca7nbV",
+    "waves_7mL9F3",
+    "footer"
+  ]
+}

@@ -1,0 +1,47 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "el_timer_strip_fa4rPC": {
+      "type": "el-timer-strip",
+      "name": "Timer Strip",
+      "settings": {
+        "content": "🐣 EASTER SALE ENDS TONGIHT!",
+        "timer_hours": 2,
+        "timer_minutes": 29,
+        "reference_date": "July 4, 2025 11:00:00",
+        "bg_color": "#b4d014",
+        "padding_top": 9,
+        "padding_bottom": 9,
+        "padding_top_mobile": 7,
+        "padding_bottom_mobile": 7
+      }
+    },
+    "header": {
+      "type": "el-header",
+      "name": "Site Header",
+      "settings": {
+        "logo": "shopify://shop_images/uvora_logo_rev_sm.png",
+        "menu": "main-menu",
+        "bg_color": "#f4f3e8",
+        "padding_top": 24,
+        "padding_bottom": 24,
+        "padding_top_mobile": 12,
+        "padding_bottom_mobile": 12
+      }
+    }
+  },
+  "order": [
+    "el_timer_strip_fa4rPC",
+    "header"
+  ]
+}

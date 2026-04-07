@@ -1,0 +1,111 @@
+.ingredient-slider__heading {
+  text-align: center;
+  color: #F4F3E8;
+  margin: 0 0 20px;
+}
+.version-light .ingredient-slider__heading {
+  color: #1C1C1A;
+}
+.ingredient-slider__description {
+  color: #F4F3E8;
+  text-align: center;
+  margin: 0;
+}
+.version-light .ingredient-slider__description {
+  color: #1C1C1A;
+}
+.ingredient-slider__contents {
+  margin-top: 40px;
+}
+.ingredient-slider__item-inner {
+  background: #EEEDDD;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 34.87% 65.13%;
+  overflow: hidden;
+  height: 100%;
+}
+.ingredient-slider__item-image img {
+  display: block;
+  line-height: 1;
+  height: 100%;
+  object-fit: cover;
+}
+.ingredient-slider__item-contents {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+.ingredient-slider__item-eyebrow {
+  font-weight: 500;
+  color: #F4F3E8;
+  border-radius: 14px;
+  background: #A1BB12;
+  padding: 4px 8px;
+  margin: 0;
+}
+.ingredient-slider__item-title {
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 192px;
+  margin: 0;
+}
+.ingredient-slider__item-content {
+  margin: 0;
+}
+.ingredient-slider__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 18px;
+}
+.ingredient-slider__buttons svg {
+  fill: white;
+}
+.version-light .ingredient-slider__buttons svg { fill: transparent }
+.version-light .ingredient-slider__buttons svg rect { stroke: #000 }
+.version-light .ingredient-slider__buttons svg path { fill: #000 }
+.ingredient-slider__buttons .swiper-pagination-col span { background: #fff; }
+.version-light .ingredient-slider__buttons .swiper-pagination-col span { background: #000; }
+
+@media (max-width: 980px) {
+  .ingredient-slider__heading {
+    margin: 0 0 12px;
+  }
+  .ingredient-slider__contents {
+    margin-top: 28px;
+  }
+  .ingredient-slider__item-inner {
+    grid-template-columns: 36.73% 63.27%;
+  }
+  .ingredient-slider__item-contents {
+    padding: 16px;
+  }
+  .ingredient-slider__item-eyebrow {
+    font-size: 10px;
+  }
+  .ingredient-slider__item-title {
+    font-size: 16px;
+    max-width: 144px;
+  }
+  .ingredient-slider__buttons .swiper-btn-ingredient {
+    display: none;
+  }
+  .ingredient-slider__buttons { margin-top: 0; }
+  .ingredient-slider__buttons .swiper-pagination-col {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 580px) {
+  .ingredient-slider__contents {
+    margin-right: -16px;
+  }
+  .ingredient-slider__heading {
+    max-width: 328px;
+    margin-inline: auto;
+  }
+}

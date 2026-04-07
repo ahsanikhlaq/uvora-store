@@ -1,0 +1,31 @@
+<div class="swiper product-offer__main-slider">
+  <div class="swiper-wrapper">
+    {% for image in product.images %}
+      <div class="swiper-slide">
+        <img src="{{ image | image_url }}" width="100%" height="auto" fetchpriority="low" loading="lazy" alt="main-img" />
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% if product.images.size > 1 %}
+  <div class="product-offer__nav-slider-outer">
+    <div class="swiper product-offer__nav-slider">
+      <div class="swiper-wrapper">
+        {% for image in product.images %}
+          <div class="swiper-slide">
+            <img src="{{ image | image_url }}" width="100%" height="auto" fetchpriority="low" loading="lazy" alt="main-img" />
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="product-offer__buttons-inner">
+      <div class="swiper-button-prev-button swiper-btn-button swiper-btn">
+        {% render 'el-icon', icon: 'circle-arrow-left' %}
+      </div>
+      <div class="swiper-pagination-col"></div>
+      <div class="swiper-button-next-button swiper-btn-button swiper-btn">
+        {% render 'el-icon', icon: 'circle-arrow-right' %}
+      </div>
+    </div>
+  </div>
+{% endif %}

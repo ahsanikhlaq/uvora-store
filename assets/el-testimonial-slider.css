@@ -1,0 +1,137 @@
+.testimonial-slider__heading {
+  text-align: center;
+  color: #F4F3E8;
+  margin: 0;
+}
+.testimonial-slider__contents {
+  margin-top: 40px;
+}
+.testimonial-slider__item-inner {
+  background: #fafaf5;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1px 28px 36px;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 34px;
+}
+.testimonial-slider__item-inner img {
+  display: block;
+  line-height: 1;
+  max-width: 116px;
+  margin: -10px auto 28px;
+  position: relative;
+  z-index: 1;
+}
+.testimonial-slider__item-content {
+  font-size: 18px;
+  text-align: center;
+  margin: 0 0 24px;
+}
+.testimonial-slider__item-tag {
+  font-size: 18px;
+  margin: auto 0 24px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.testimonial-slider__item-tag span {
+  display: block;
+  border-radius: 8px;
+  background: #E9EEC9;
+  padding: 6px 10px;
+}
+.testimonial-slider__item-name {
+  display: grid;
+  grid-template-columns: 18px auto;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+.testimonial-slider__item-name strong {
+  font-weight: 400;
+  color: #97AE14;
+}
+.testimonial-slider__item-inner:after {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='268' height='35' viewBox='0 0 268 35' fill='none'%3E%3Cpath d='M20.6562 20.9306C16.6825 28.7942 8.89092 33.9427 0.193409 34.586C0.0847879 34.5941 -3.0322e-06 34.6842 -3.04172e-06 34.7932C-3.0517e-06 34.9074 0.0925904 35 0.20681 35L267.799 35C267.91 35 268 34.9102 268 34.7994C268 34.6933 267.917 34.6055 267.811 34.5985C259.04 34.0142 251.167 28.8493 247.165 20.9307L240.194 7.13669C237.983 2.75975 233.496 -3.01645e-06 228.592 -3.44518e-06L39.2296 -1.99997e-05C34.3255 -2.04285e-05 29.8388 2.75973 27.6269 7.13667L20.6562 20.9306Z' fill='%23FAFAF5'/%3E%3C/svg%3E");
+  width: 268px;
+  height: 35px;
+  position: absolute;
+  top: -34px;
+  left: 50%;
+  transform: translate(-50%);
+  background-size: cover;
+  background-position: bottom center;
+}
+.testimonial-slider__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+.testimonial-slider__buttons svg {
+  fill: #F4F3E8
+}
+.testimonial-slider__contents .swiper-pagination-col span {
+  background: #fff;
+}
+
+@media (max-width: 980px) {
+  .testimonial-slider__contents {
+    margin-top: 24px;
+  }
+  .testimonial-slider__item-inner {
+    padding: 1px 18px 24px;
+  }
+  .testimonial-slider__item-inner img {
+    max-width: 88px;
+    margin: -18px auto 24px;
+  }
+  .testimonial-slider__item-content {
+    font-size: 14px;
+    text-align: center;
+    margin: 0 0 15px;
+  }
+  .testimonial-slider__item-tag {
+    font-size: 13px;
+    margin: auto 0 18px;
+  }
+  .testimonial-slider__item-tag span {
+    padding: 5.5px 10px;
+  }
+  .testimonial-slider__item-name {
+    grid-template-columns: 12px auto;
+    font-size: 12px;
+  }
+  .testimonial-slider__item-inner:after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='35' viewBox='0 0 200 35' fill='none'%3E%3Cpath d='M22.0033 17.9648C18.6759 27.4066 10.067 33.8955 0.191905 34.5917C0.084493 34.5993 0.000363178 34.6883 0.000363169 34.796C0.000363159 34.9087 0.0916785 35 0.204322 35L199.801 35C199.911 35 200 34.9107 200 34.8006C200 34.6949 199.918 34.6076 199.812 34.6007C189.883 33.9521 181.213 27.4477 177.871 17.9648L174.599 8.67908C172.766 3.47856 167.852 -2.81049e-06 162.338 -3.29254e-06L37.5366 -1.4203e-05C32.0226 -1.46851e-05 27.1085 3.47855 25.2757 8.67908L22.0033 17.9648Z' fill='%23FAFAF5'/%3E%3C/svg%3E");
+    width: 200px;
+  }
+  .testimonial-slider__buttons .swiper-btn-testimonial {
+    display: none;
+  }
+  .testimonial-slider__contents .swiper-pagination-col {
+    margin-top: 32px;
+  }
+  .testimonial-slider__buttons {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .testimonial-slider__contents {
+    margin-right: -16px;
+  }
+  .testimonial-slider__heading {
+    max-width: 312px;
+    margin-inline: auto;
+  }
+}

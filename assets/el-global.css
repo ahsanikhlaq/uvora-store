@@ -1,0 +1,139 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f4f3e8!important;
+}
+
+.section-wrapper {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.section-container {
+  max-width: 1408px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-heading {
+  color: #3C3C3C;
+  font-family: "SF Pro";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: -2px;;
+}
+
+.section-description {
+  color: #1C1C1A;
+  font-family: "Inter Display";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
+}
+
+.el-svg svg {
+  width: 100%;
+  height: auto;
+}
+
+.section-button {
+  max-width: 512px;
+  margin-inline: auto;
+}
+
+.section-button a,
+button.section-button {
+  display: block;
+  width: 100%;
+  color: #FFF;
+  text-align: center;
+  font-family: "Inter Display";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  background: #16170C;
+  border: solid 1px #16170C;
+  padding: 24px 16px;
+  transition: all 0.3s ease;
+}
+.section-button a:hover,
+button.section-button:hover {
+  background: transparent;
+  color: #16170C;
+}
+
+.section-button p {
+  display: grid;
+  grid-template-columns: 18px auto;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  margin: 12px 0 0;
+}
+
+@media (max-width: 980px) {
+  .section-heading {
+    font-size: 32px;
+  }
+  .section-description {
+    font-size: 15px;
+  }
+  .section-button a,
+  button.section-button {
+    font-size: 14px;
+    padding: 17px 15px;
+  }
+  .section-button p {
+    grid-template-columns: 16px auto;
+    gap: 4px;
+  }
+}
+
+.section-slider .swiper-pagination-col.swiper-pagination-lock { display: none; }
+.section-slider .swiper-slide {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.section-slider .swiper-pagination-col {
+  display: flex;
+  gap: 10px;
+  max-width: 237px;
+}
+.section-slider .swiper-pagination-col span {
+  margin: 0!important;
+  width: 100%;
+  height: 2px;
+  border-radius: 0;
+  transition: all 0.3s ease;
+  background: #1C1C1A;
+}
+.section-slider .swiper-btn { cursor: pointer; }
+.section-slider .swiper-button-disabled {
+  opacity: 0.5;
+  cursor: unset;
+}
+@media (max-width: 980px) {
+  .section-slider .swiper-pagination-col {
+    max-width: 150px;
+    margin-top: 24px;
+  }
+}
+
+.desktop-display { display: block; }
+.mobile-display { display: none; }
+.hidden-display { display: none!important; }
+
+@media (max-width: 980px) {
+  .desktop-display { display: none; }
+  .mobile-display { display: block; }
+}

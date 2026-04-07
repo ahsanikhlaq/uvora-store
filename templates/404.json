@@ -1,0 +1,293 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_7NVT8T": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_RCf4xj": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Rectangle_132_1.webp",
+            "image_mob": "shopify://shop_images/Rectangle_132_1.webp",
+            "caption": "WELCOME TO ULORA!",
+            "block_cap_size": 20,
+            "cap_color": "#222222",
+            "heading": "",
+            "block_head_size-2": 20,
+            "block_head_size-mobile": 20,
+            "block_head_line": 1.4,
+            "heading_size": "h1",
+            "subheading": "We’re on a mission to help you take control of your vitality. Our science-backed supplements are designed to fuel your strength, and boost your energy. Join us at Ulora, in building a stronger future, one step at a time.",
+            "button_label": "Shop Now",
+            "link": "shopify://products/nad",
+            "link-2": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center",
+            "mobile_box_align": "center",
+            "mobile_text_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "slide_RCf4xj"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "banner_border": 0,
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "hide_navigation": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "main": {
+      "type": "main-404",
+      "disabled": true,
+      "settings": {}
+    },
+    "logo_scroll_ANfV8g": {
+      "type": "Logo-scroll",
+      "blocks": {
+        "image_49RCeA": {
+          "type": "image",
+          "settings": {
+            "logo_image": "shopify://shop_images/1_logo.png",
+            "logo_image_width": 90
+          }
+        },
+        "image_nrxJ6T": {
+          "type": "image",
+          "settings": {
+            "logo_image": "shopify://shop_images/33_logo.png",
+            "logo_image_width": 90
+          }
+        },
+        "image_BHLjch": {
+          "type": "image",
+          "settings": {
+            "logo_image": "shopify://shop_images/44_logo.png",
+            "logo_image_width": 90
+          }
+        },
+        "image_MhbGpV": {
+          "type": "image",
+          "settings": {
+            "logo_image": "shopify://shop_images/22_logo.png",
+            "logo_image_width": 90
+          }
+        }
+      },
+      "block_order": [
+        "image_49RCeA",
+        "image_nrxJ6T",
+        "image_BHLjch",
+        "image_MhbGpV"
+      ],
+      "settings": {
+        "scroll_speed": 15,
+        "fade": false,
+        "color_scheme": "inverse",
+        "announcement_head": "Featured Everywhere",
+        "announcement_head_d": 18,
+        "announcement_head_m": 15,
+        "announcement_color": "#ffffff",
+        "padding_desktop": 12,
+        "padding_mobile": 8,
+        "padding_item_desktop": 32,
+        "padding_item_mobile": 24,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_NXRdXJ": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "description": "",
+        "collection_text_alignment": "left",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "our-best-sellers",
+        "show_collection_image": false,
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "navigation_on_desk": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_no_crop": true,
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_scroll_tags": false,
+        "enable_quick_desc": false,
+        "quick_desc_legth": 90,
+        "quick_desc_size": 14,
+        "enable_quick_add": false,
+        "show_secondary_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "navigation_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_rY3hPz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_CCK7VG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Ulora?",
+            "heading_size": "h1"
+          }
+        },
+        "text_8mw3G7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Ulora, our number one priority is helping customers feel rejuvenated. Finding the right supplement shouldn’t be a guessing game. That’s why we back every order with a 30-day money-back guarantee. No BS, just results.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_t4iMi3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify://products/nad",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_CCK7VG",
+        "text_8mw3G7",
+        "button_t4iMi3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/woman-doing-yoga.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 68,
+        "padding_bottom": 36
+      }
+    },
+    "featured_product_DM778G": {
+      "type": "featured-product",
+      "blocks": {
+        "title_Ee9UNX": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_MrQxQ8": {
+          "type": "price",
+          "settings": {
+            "price_style": "price",
+            "price_size_2": 1.5,
+            "badge_size": 14,
+            "sale_price_color": "#131313",
+            "badge_price": "#8b8d8f",
+            "badge_bg": "#f2f2f2",
+            "badge_border": "#f2f2f2",
+            "price_bold": false,
+            "price_bold_2": false,
+            "badge_hide": false,
+            "taxes_hide": true,
+            "shipping_hide": true,
+            "padding_top": 4,
+            "padding_bottom": 4
+          }
+        },
+        "variant_picker_zzyMtn": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatchType": "color",
+            "optionName": "Color",
+            "swatchStyle": "round",
+            "swatchSize": 30,
+            "swatchHeight": 30
+          }
+        },
+        "quantity_selector_cKP63A": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_jRRFWi": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_Y9x4L6": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title_Ee9UNX",
+        "price_MrQxQ8",
+        "variant_picker_zzyMtn",
+        "quantity_selector_cKP63A",
+        "buy_buttons_jRRFWi",
+        "share_Y9x4L6"
+      ],
+      "settings": {
+        "product": "nad",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "slideshow_7NVT8T",
+    "main",
+    "logo_scroll_ANfV8g",
+    "featured_collection_NXRdXJ",
+    "image_with_text_rY3hPz",
+    "featured_product_DM778G"
+  ]
+}

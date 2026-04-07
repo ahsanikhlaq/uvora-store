@@ -1,0 +1,113 @@
+<style>
+  .form-{{ block.id }} { margin-bottom: {{ block.settings.margin_desktop }}px }
+  @media (max-width: 980px) {
+    .form-{{ block.id }} { margin-bottom: {{ block.settings.margin_mobile }}px }
+  }
+</style>
+
+<div class="product-offer__form form-{{ block.id }}" {{ block.shopify_attributes }}>
+  {% form 'product', product %}
+    {% if enable_kaching %}
+      <kaching-bundle product-id="{{ product.id }}"></kaching-bundle>
+    {% endif %}
+
+    <div class="product-offer__form-variants {% if enable_kaching %}hidden-display{% endif %}">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'qty-blocks' %}
+            {% liquid
+              assign variant = product.selected_or_first_available_variant
+              assign selling_plan = variant.selling_plan_allocations.first
+              assign discount = block.settings.discount_percentage | divided_by: 100.0
+              assign discount_amount = variant.price | times: discount
+              assign final_price = variant.price | minus: discount_amount
+
+              assign selling_plan_id = product.selling_plan_groups[0].selling_plans[0].id
+
+              if selling_plan
+                assign discount_amount_sub = selling_plan.price | times: discount
+                assign final_price_sub = selling_plan.price | minus: discount_amount_sub
+              else
+                assign final_price_sub = final_price
+              endif
+            %}
+
+            <div class="product-offer__variant-item {% if forloop.index == 2 %}selected{% endif %}"
+              data-id="{{ product.first_available_variant.id }}"
+              data-price="{{ final_price | times: block.settings.quantity | money }}"
+              data-subscription-price="{{ final_price_sub | times: block.settings.quantity | money }}"
+              data-compare-price="{{ product.price | times: block.settings.quantity | money }}"
+              data-quantity="{{ block.settings.quantity }}"
+              data-discount="{{ block.settings.discount_percentage }}">
+              <div class="product-offer__variant-contents">
+                {% if block.settings.tag != blank %}
+                  <p class="product-offer__variant-tag section-description">{{ block.settings.tag }}</p>
+                {% endif %}
+
+                <div class="product-offer__contents-info">
+                  <img src="{{ block.settings.image | image_url }}" width="100%" height="auto" fetchpriority="high" loading="lazy" alt="promo-img" />
+                  <div>
+                    <p class="product-offer__variant-title section-description">{{ block.settings.title }}</p>
+                    <p class="product-offer__variant-supply section-description">{{ block.settings.supply }}</p>
+                  </div>
+                </div>
+
+                <p class="product-offer__variant-price section-description">
+                  <span class="price-reg">
+                    {% if selling_plan_id != blank %}
+                      {{ final_price_sub | times: block.settings.quantity | money }}
+                    {% else %}
+                      {{ final_price | times: block.settings.quantity | money }}
+                    {% endif %}
+                  </span>
+                  <span class="price-comp">{{ product.price | times: block.settings.quantity | money }}</span>
+                </p>
+              </div>
+
+              {% if block.settings.free_products != blank %}
+                <ul class="product-offer__free-products">
+                  {% for product in block.settings.free_products %}
+                    <li data-free-id="{{ product.first_available_variant.id }}">
+                      <div>
+                        <div class="product-offer__free-info">
+                          <img src="{{ product.featured_image | image_url }}" width="100%" height="auto" fetchpriority="high" loading="lazy" alt="{{ product.title | handleize }}" />
+                          <p class="section-description">{{ product.title | remove: 'FREE - ' | remove: 'eBook' }}</p>
+                        </div>
+                        <p class="product-offer__free-price section-description">FREE <span>{{ product.price | money }}</span></p>
+                      </div>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+
+    {% assign selling_plan = product.selling_plan_groups[0].selling_plans[0] %}
+
+    <label class="product-offer__subscription section-description {% if selling_plan.id == blank %}hidden-display{% endif %} {% if enable_kaching %}hidden-display{% endif %}">
+      <input type="checkbox" id="offer-subscription" data-selling-plan-id="{{ selling_plan.id }}" {% if selling_plan.id != blank %}checked{% endif %} />
+      <span class="subscription-checkbox"></span>
+      <p class="product-offer__subscription-title section-description">{{ block.settings.sub_title }}</p>
+      <p class="product-offer__subscription-description section-description">{{ block.settings.sub_description }}</p>
+    </label>
+
+    <div class="product-offer__btn-container">
+      <button class="product-offer__btn section-button {% if enable_kaching %}product-offer__btn-kaching{% endif %}" type="submit" id="buy-now">
+        <span class="btn-text">{{ block.settings.btn_text }} </span>
+        <span class="divider">|</span>
+        <span class="btn-prices">
+          <span class="btn-price"></span>
+          <span class="btn-compare"></span>
+        </span>
+      </button>
+      {% if block.settings.btn_footnotes != blank %}
+        <p class="product-offer__btn-footnotes el-svg section-description">
+          {% render 'el-icon', icon: "shield" %}
+          <span>{{ block.settings.btn_footnotes }}</span>
+        </p>
+      {% endif %}
+    </div>
+  {% endform %}
+</div>

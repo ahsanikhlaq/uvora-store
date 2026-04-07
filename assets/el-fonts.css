@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "SF Pro";
+  src: url("https://cdn.shopify.com/s/files/1/0764/9863/2930/files/SF-Pro-Text-ThinItalic.woff2?v=1774763823") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro";
+  src: url("https://cdn.shopify.com/s/files/1/0764/9863/2930/files/SF-Pro-Text-Medium.woff2?v=1774589731") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Pro";
+  src: url("https://cdn.shopify.com/s/files/1/0764/9863/2930/files/SF-Pro-Text-MediumItalic.woff2?v=1774589707") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Display";
+  src: url("https://cdn.shopify.com/s/files/1/0764/9863/2930/files/InterDisplay-Light.woff?v=1774589941") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Display";
+  src: url("https://cdn.shopify.com/s/files/1/0764/9863/2930/files/InterDisplay-Regular.woff?v=1774589941") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Display";
+  src: url("https://cdn.shopify.com/s/files/1/0764/9863/2930/files/InterDisplay-Medium.woff?v=1774589941") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Display";
+  src: url("https://cdn.shopify.com/s/files/1/0764/9863/2930/files/InterDisplay-SemiBold.woff?v=1774670126") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter Display";
+  src: url("https://cdn.shopify.com/s/files/1/0764/9863/2930/files/InterDisplay-Bold.woff?v=1774589941") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

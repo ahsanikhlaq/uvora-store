@@ -1,0 +1,153 @@
+{%- comment -%}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  SECTION: Timer Strip
+  Purpose: Display a timer/countdown
+  Last updated: March 2026
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{%- endcomment -%}
+
+{% liquid
+  assign bg_color = section.settings.bg_color
+  assign padding_top = section.settings.padding_top
+  assign padding_bottom = section.settings.padding_bottom
+  assign padding_top_mobile = section.settings.padding_top_mobile
+  assign padding_bottom_mobile = section.settings.padding_bottom_mobile
+%}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ padding_top }}px;
+    padding-bottom: {{ padding_bottom }}px;
+  }
+  .section-{{ section.id }}-bg { background-color: {{ bg_color }} }
+  @media screen and (max-width: 980px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ padding_top_mobile }}px;
+      padding-bottom: {{ padding_bottom_mobile }}px;
+    }
+  }
+{%- endstyle -%}
+
+{{ 'el-timer-strip.css' | asset_url | stylesheet_tag }}
+
+<section class="timer-strip section-{{ section.id }}" id="section-{{ section.id }}">
+  <div class="timer-strip__wrapper section-wrapper section-{{ section.id }}-padding section-{{ section.id }}-bg">
+    <div class="timer-strip__container section-container">
+      <div class="timer-strip__clock timer timer-{{ section.id }}"
+        data-hours="{{ section.settings.timer_hours }}"
+        data-minutes="{{ section.settings.timer_minutes }}"
+        data-reference="{{ section.settings.reference_date }}">
+        <div class="timer-strip__item offer-timer">
+          <p class="timer-strip__item-title section-description">{{ section.settings.content }}</p>
+          <div class="timer-strip__inner-container">
+            <div class="timer-strip__cell section-description">
+              <div class="timer-strip__cell-value" data-hours></div>
+              <div class="timer-strip__cell-unit">hrs</div>
+            </div>
+
+            <div class="timer-strip__cell section-description">
+              <div class="timer-strip__cell-value" data-minutes></div>
+              <div class="timer-strip__cell-unit">min</div>
+            </div>
+
+            <div class="timer-strip__cell section-description">
+              <div class="timer-strip__cell-value" data-seconds></div>
+              <div class="timer-strip__cell-unit">sec</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="{{ "el-timer-strip.js" | asset_url }}" defer></script>
+
+{% schema %}
+{
+  "name": "Timer Strip",
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "content",
+      "label": "Content",
+      "default": "lorem ipsum"
+    },
+    {
+      "type": "number",
+      "id": "timer_hours",
+      "label": "Timer Hours",
+      "default": 45,
+    },
+    {
+      "type": "number",
+      "id": "timer_minutes",
+      "label": "Timer Minutes",
+      "default": 29,
+    },
+    {
+      "type": "text",
+      "id": "reference_date",
+      "label": "Reference Date",
+      "default": "July 4, 2025 11:00:00",
+      "info": "make sure timer/s follow one standard time",
+    },
+    {
+      "type": "header",
+      "content": "Section Settings"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#B4D014"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 9
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 9
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Top padding (Mobile)",
+      "default": 7
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Bottom padding (Mobile)",
+      "default": 7
+    },
+  ],
+  "presets": [
+    {
+      "name": "Timer Strip",
+      "category": "Ecomlanders"
+    }
+  ]
+}
+{% endschema %}

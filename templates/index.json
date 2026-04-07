@@ -1,0 +1,907 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "el_hero_section_3GnWVg": {
+      "type": "el-hero-section",
+      "name": "Hero Section",
+      "settings": {
+        "rating": "Rated <a href=\"#reviews\" title=\"#reviews\">4.8/5.0 | Excellent</a>",
+        "heading": "Complete Liver Support In Just <em>2 Daily Capsules</em>",
+        "description": "Unlike basic milk thistle supplements, our clinical-strength formula addresses your body's processing systems from multiple angles",
+        "lists": "8 Active Ingredients\nResults in 2-4 weeks",
+        "btn_text": "SUPPORT YOUR LIVER NOW →",
+        "btn_link": "#product-offer",
+        "btn_footnotes": "90-day money back guarantee",
+        "feat_img": "shopify://shop_images/home-hero-feat.webp",
+        "bg_color": "#f4f3e8",
+        "bg_color_inner": "#f0eee7",
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 32
+      }
+    },
+    "el_image_marquee_UMX8ei": {
+      "type": "el-image-marquee",
+      "blocks": {
+        "image_BcnJAe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/uvora-marquee-1.webp"
+          }
+        },
+        "image_HwqDdh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/uvora-marquee-2.webp"
+          }
+        },
+        "image_CyQYb4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/uvora-marquee-3.webp"
+          }
+        },
+        "image_mq3m7i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/uvora-marquee-4.webp"
+          }
+        },
+        "image_kEDrKY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/uvora-marquee-5.webp"
+          }
+        },
+        "image_3JXn7z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/uvora-marquee-1.webp"
+          }
+        },
+        "image_FVjnM3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/uvora-marquee-6.webp"
+          }
+        },
+        "image_eH7yEM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/uvora-marquee-7.webp"
+          }
+        },
+        "image_YTjPUH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/uvora-marquee-2.webp"
+          }
+        }
+      },
+      "block_order": [
+        "image_BcnJAe",
+        "image_HwqDdh",
+        "image_CyQYb4",
+        "image_mq3m7i",
+        "image_kEDrKY",
+        "image_3JXn7z",
+        "image_FVjnM3",
+        "image_eH7yEM",
+        "image_YTjPUH"
+      ],
+      "name": "Image Marquee",
+      "settings": {
+        "bg_color": "#f4f3e8",
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "el_review_slider_bEPgxk": {
+      "type": "el-review-slider",
+      "blocks": {
+        "review_item_YC6Y3B": {
+          "type": "review-item",
+          "settings": {
+            "review_content": "Great company. Stand behind their product and very easy to get in touch with. They handled all my needs quickly and to my satisfaction! A+++ company",
+            "reviewer_img": "shopify://shop_images/davidZ.webp",
+            "reviewer": "David Z",
+            "tags": "Great Customer Service\nTrustworthy"
+          }
+        },
+        "review_item_pVkwKm": {
+          "type": "review-item",
+          "settings": {
+            "review_content": "“My bloating has been significantly reduced and my whole digestive system feels relieved. I do recommend this formula.”",
+            "reviewer_img": "shopify://shop_images/ritaL.webp",
+            "reviewer": "Rita L",
+            "tags": "Less Bloating\nFeel Lighter"
+          }
+        },
+        "review_item_PeKYaJ": {
+          "type": "review-item",
+          "settings": {
+            "review_content": "“Less bloating and more regular digestion. I've been feeling lighter and more energised every day.\"",
+            "reviewer_img": "shopify://shop_images/hannaR.webp",
+            "reviewer": "Hannah R",
+            "tags": "More Energy\nReduced Bloating"
+          }
+        },
+        "review_item_FBLmLG": {
+          "type": "review-item",
+          "settings": {
+            "review_content": "\"My doctor noticed my liver numbers improved at my last checkup. I genuinely believe Uvora played a part in that.\"",
+            "reviewer_img": "shopify://shop_images/kevinL.webp",
+            "reviewer": "Kevin L",
+            "tags": "Improved Levels\nDoctor Approved"
+          }
+        },
+        "review_item_dfiP4k": {
+          "type": "review-item",
+          "settings": {
+            "review_content": "\"I was skeptical but my brain fog has cleared up noticeably. I can actually focus at work again without five coffees.\"",
+            "reviewer_img": "shopify://shop_images/rachelD.webp",
+            "reviewer": "Rachel D",
+            "tags": "Mental Clarity\nLess Brain Fog"
+          }
+        },
+        "review_item_LTKbXb": {
+          "type": "review-item",
+          "settings": {
+            "review_content": "\"I sleep so much better now. I used to wake up 3 or 4 times a night. Now I'm down to maybe once. Life changing.\"",
+            "reviewer_img": "shopify://shop_images/paulW.webp",
+            "reviewer": "Paul W",
+            "tags": "Better Sleep\nLife Changing"
+          }
+        }
+      },
+      "block_order": [
+        "review_item_YC6Y3B",
+        "review_item_pVkwKm",
+        "review_item_PeKYaJ",
+        "review_item_FBLmLG",
+        "review_item_dfiP4k",
+        "review_item_LTKbXb"
+      ],
+      "disabled": true,
+      "name": "Review Slider",
+      "settings": {
+        "heading": "30 Days. Real People. Real Difference.",
+        "enable_slider": true,
+        "bg_color": "#f4f3e8",
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "el_why_us_N6JQpQ": {
+      "type": "el-why-us",
+      "blocks": {
+        "reason_item_TNc338": {
+          "type": "reason-item",
+          "settings": {
+            "icon": "shopify://shop_images/beaker-cream.svg",
+            "content": "80% silymarin. The clinical standard."
+          }
+        },
+        "reason_item_h3kUHk": {
+          "type": "reason-item",
+          "settings": {
+            "icon": "shopify://shop_images/leaf-cream.svg",
+            "content": "8 Active Ingredients Combined"
+          }
+        },
+        "reason_item_4gHLEh": {
+          "type": "reason-item",
+          "settings": {
+            "icon": "shopify://shop_images/pill-cream.svg",
+            "content": "Just 2 Simple Daily Capsules"
+          }
+        }
+      },
+      "block_order": [
+        "reason_item_TNc338",
+        "reason_item_h3kUHk",
+        "reason_item_4gHLEh"
+      ],
+      "name": "Why Us",
+      "settings": {
+        "eyebrow": "WhY CHOOSE UVORA?",
+        "heading": "Powerful Formula. Simple Routine.",
+        "feat_img": "shopify://shop_images/why-uvora-feat.webp",
+        "bg_color": "#a9c313",
+        "bg_img": "shopify://shop_images/why-uvora-bg.webp",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "el_info_content_C4wfWk": {
+      "type": "el-info-content",
+      "blocks": {
+        "info_item_JjwcRR": {
+          "type": "info-item",
+          "settings": {
+            "image": "shopify://shop_images/crashing.webp",
+            "icon": "shopify://shop_images/battery-red.svg",
+            "title": "Crashing Energy & Brain Fog",
+            "content": "Your liver plays a key role in your glucose management, issues can lead to that tired feeling."
+          }
+        },
+        "info_item_nNjEjC": {
+          "type": "info-item",
+          "settings": {
+            "image": "shopify://shop_images/bloating.webp",
+            "icon": "shopify://shop_images/air-red.svg",
+            "title": "Bloating That Won't Quit",
+            "content": "Most people blame what they eat, but rarely think its how their body is processing those foods."
+          }
+        },
+        "info_item_mdnadf": {
+          "type": "info-item",
+          "settings": {
+            "image": "shopify://shop_images/overloaded.webp",
+            "icon": "shopify://shop_images/bacteria-red.svg",
+            "title": "Overloaded and Overwhelmed",
+            "content": "Toxins and waste not cleared from the system can accumulate and cause visible problems."
+          }
+        }
+      },
+      "block_order": [
+        "info_item_JjwcRR",
+        "info_item_nNjEjC",
+        "info_item_mdnadf"
+      ],
+      "name": "Info Content",
+      "settings": {
+        "eyebrow": "The Root Cause",
+        "heading": "Your Problem Starts In The Liver...",
+        "bg_color": "#f4f3e8",
+        "divider_color": "#81950e",
+        "padding_top": 60,
+        "padding_bottom": 90,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 70
+      }
+    },
+    "el_step_progress_VgGeta": {
+      "type": "el-step-progress",
+      "blocks": {
+        "step_item_tgdGHC": {
+          "type": "step-item",
+          "settings": {
+            "icon": "shopify://shop_images/wrench.svg",
+            "title": "Support",
+            "content": "Milk Thistle at 80% silymarin helps support liver cells that have been under prolonged stress"
+          }
+        },
+        "step_item_XEywhg": {
+          "type": "step-item",
+          "settings": {
+            "icon": "shopify://shop_images/water-protect.svg",
+            "title": "Clear",
+            "content": "Wormwood and Clove help target unwanted buildup and support your body's natural elimination process"
+          }
+        },
+        "step_item_Lpwndn": {
+          "type": "step-item",
+          "settings": {
+            "icon": "shopify://shop_images/hos-shield.svg",
+            "title": "Protect",
+            "content": "Vitamin C and Turmeric provide antioxidant\nsupport to help shield liver cells from ongoing daily stress"
+          }
+        }
+      },
+      "block_order": [
+        "step_item_tgdGHC",
+        "step_item_XEywhg",
+        "step_item_Lpwndn"
+      ],
+      "name": "Step Progress",
+      "settings": {
+        "eyebrow": "The Uvora Approach",
+        "heading": "Support. Clear. Protect.",
+        "description": "Most liver supplements only do one thing. Uvora supports the full cycle.",
+        "feat_img": "shopify://shop_images/step-prog-feat.webp",
+        "bg_color": "#f4f3e8",
+        "bg_color_inner": "#fafaf5",
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 150
+      }
+    },
+    "el_icon_text_ykcgBf": {
+      "type": "el-icon-text",
+      "blocks": {
+        "block_item_werwL6": {
+          "type": "block-item",
+          "settings": {
+            "icon": "shopify://shop_images/molecule-cream.svg",
+            "content": "80% pure silymarin. The concentration used for real effectiveness."
+          }
+        },
+        "block_item_R3tQjf": {
+          "type": "block-item",
+          "settings": {
+            "icon": "shopify://shop_images/shield-cream.svg",
+            "content": "8 active ingredients working together across every stage of support."
+          }
+        },
+        "block_item_PzdcDx": {
+          "type": "block-item",
+          "settings": {
+            "icon": "shopify://shop_images/leaf-cream.svg",
+            "content": "Sourced to the highest standards with the best ingredients."
+          }
+        },
+        "block_item_mPjNHU": {
+          "type": "block-item",
+          "settings": {
+            "icon": "shopify://shop_images/pill-cream.svg",
+            "content": "Naturally sourced. No fillers. Nothing you don't need."
+          }
+        }
+      },
+      "block_order": [
+        "block_item_werwL6",
+        "block_item_R3tQjf",
+        "block_item_PzdcDx",
+        "block_item_mPjNHU"
+      ],
+      "name": "Icon Text",
+      "settings": {
+        "eyebrow": "The Formula",
+        "heading": "8 Ingredients. Clinical Strength. Zero Filler.",
+        "feat_img": "shopify://shop_images/icon-text-feat-1.webp",
+        "feat_img2": "shopify://shop_images/icon-text-feat-2.webp",
+        "btn_text": "SUPPORT YOUR LIVER NOW →",
+        "btn_link": "#product-offer",
+        "btn_footnotes": "90-day money back guarantee",
+        "bg_color": "#f4f3e8",
+        "padding_top": 0,
+        "padding_bottom": 120,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "el_progress_timeline_M99idP": {
+      "type": "el-progress-timeline",
+      "blocks": {
+        "timeline_item_GKw3rB": {
+          "type": "timeline-item",
+          "settings": {
+            "image": "shopify://shop_images/clearing-out.webp",
+            "title": "<strong>Days 1–14:</strong> Clearing Out",
+            "lists": "Gut starts clearing unwanted buildup\nBloating begins to ease after meals\nDigestion feels smoother"
+          }
+        },
+        "timeline_item_zGNFDz": {
+          "type": "timeline-item",
+          "settings": {
+            "image": "shopify://shop_images/energy-returns.webp",
+            "title": "<strong>Weeks 3–6:</strong> Energy Returns",
+            "lists": "Steady energy throughout the day\nBrain fog starts to lift\nBlood sugar feels more stable after meals"
+          }
+        },
+        "timeline_item_6NNd4k": {
+          "type": "timeline-item",
+          "settings": {
+            "image": "shopify://shop_images/deep-support.webp",
+            "title": "<strong>Months 2–3:</strong> Deep Support",
+            "lists": "Your liver gets the prolonged support its been craving\nInflammation eases\nYour body removes all the nasty toxins and waste"
+          }
+        },
+        "timeline_item_PxqLpY": {
+          "type": "timeline-item",
+          "settings": {
+            "image": "shopify://shop_images/full-restoration.webp",
+            "title": "<strong>Months 4–6:</strong> Full Restoration",
+            "lists": "Your new energy levels are in full swing\nYou keep a weight baseline consistently\nYour liver gets the support it needs"
+          }
+        }
+      },
+      "block_order": [
+        "timeline_item_GKw3rB",
+        "timeline_item_zGNFDz",
+        "timeline_item_6NNd4k",
+        "timeline_item_PxqLpY"
+      ],
+      "name": "Progress Timeline",
+      "settings": {
+        "eyebrow": "The Journey",
+        "heading": "Real Help Takes Time.",
+        "notes": "This is why our customers who see the biggest results choose the 4 or 6 month supply. The longer you support your body, the more it shows.",
+        "btn_text": "SUPPORT YOUR LIVER NOW →",
+        "btn_link": "#product-offer",
+        "btn_footnotes": "90-day money back guarantee",
+        "bg_color": "#eeeddd",
+        "padding_top": 20,
+        "padding_bottom": 60,
+        "padding_top_mobile": 4,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "el_ingredient_slider_tTchc9": {
+      "type": "el-ingredient-slider",
+      "blocks": {
+        "ingredient_item_ebEEaX": {
+          "type": "ingredient-item",
+          "settings": {
+            "image": "shopify://shop_images/milk-thistle.webp",
+            "eyebrow": "300mg",
+            "title": "Milk Thistle Extract (80% Silymarin)",
+            "content": "The hero ingredient. Dosed at the exact level shown in research to help support your liver and protect it from daily stress."
+          }
+        },
+        "ingredient_item_tfUNV3": {
+          "type": "ingredient-item",
+          "settings": {
+            "image": "shopify://shop_images/inositol.webp",
+            "eyebrow": "200mg",
+            "title": "Inositol",
+            "content": "Supports healthy blood sugar metabolism and helps your liver break down and process stored fats more efficiently."
+          }
+        },
+        "ingredient_item_DP66FW": {
+          "type": "ingredient-item",
+          "settings": {
+            "image": "shopify://shop_images/vit-c.webp",
+            "eyebrow": "10mg",
+            "title": "Vitamin C",
+            "content": "An essential antioxidant that supports immune function and helps shield liver cells from free radical damage."
+          }
+        },
+        "ingredient_item_PwPeXp": {
+          "type": "ingredient-item",
+          "settings": {
+            "image": "shopify://shop_images/pueraria-extract.webp",
+            "eyebrow": "68mg",
+            "title": "Pueraria Extract (10% Puerarin)",
+            "content": "Traditionally used to support liver function after alcohol exposure. Helps reduce oxidative stress on overworked cells."
+          }
+        },
+        "ingredient_item_PxF6Fi": {
+          "type": "ingredient-item",
+          "settings": {
+            "image": "shopify://shop_images/wormwood-extract.webp",
+            "eyebrow": "50mg",
+            "title": "Wormwood Extract",
+            "content": "A potent botanical used for centuries to target unwanted organisms in the gut and support natural digestive cleansing."
+          }
+        },
+        "ingredient_item_LjDdhN": {
+          "type": "ingredient-item",
+          "settings": {
+            "image": "shopify://shop_images/clove-extract.webp",
+            "eyebrow": "50mg",
+            "title": "Clove Extract",
+            "content": "Provides antimicrobial support while helping maintain balanced blood sugar levels. Works alongside Wormwood for gut health."
+          }
+        },
+        "ingredient_item_3mdCKC": {
+          "type": "ingredient-item",
+          "settings": {
+            "image": "shopify://shop_images/l-mehionine.webp",
+            "eyebrow": "10mg",
+            "title": "L-Methionine",
+            "content": "A key amino acid that supports Phase II liver detoxification. Helps your body break down and remove waste products."
+          }
+        },
+        "ingredient_item_jebBj4": {
+          "type": "ingredient-item",
+          "settings": {
+            "image": "shopify://shop_images/turmeric-extract.webp",
+            "eyebrow": "4mg",
+            "title": "Turmeric Extract (95% Curcuminoids)",
+            "content": "A powerful antioxidant that supports liver health and helps calm irritation throughout the body."
+          }
+        }
+      },
+      "block_order": [
+        "ingredient_item_ebEEaX",
+        "ingredient_item_tfUNV3",
+        "ingredient_item_DP66FW",
+        "ingredient_item_PwPeXp",
+        "ingredient_item_PxF6Fi",
+        "ingredient_item_LjDdhN",
+        "ingredient_item_3mdCKC",
+        "ingredient_item_jebBj4"
+      ],
+      "name": "Ingredient Slider",
+      "settings": {
+        "heading": "Every Capsule Is Packed With Essentials",
+        "description": "8 active ingredients. Perfect dosages.",
+        "type": "dark",
+        "bg_color": "#a9c313",
+        "bg_img": "shopify://shop_images/ingredient-bg.webp",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 35,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "el_table_comparison_CTEWwx": {
+      "type": "el-table-comparison",
+      "blocks": {
+        "table_contents_tYyMA3": {
+          "type": "table-contents",
+          "settings": {
+            "logo": "shopify://shop_images/uvora-logo-light.webp",
+            "others": "OTHER BRANDS",
+            "lists": "80% Pure Silymarin\nProtects AND Detoxes\n8 Active Ingredients\nParasite & Gut Support\nBlood Sugar Support\nNaturally Sourced\n90-Day Guarantee"
+          }
+        }
+      },
+      "block_order": [
+        "table_contents_tYyMA3"
+      ],
+      "custom_css": [
+        "@media (max-width: 580px) {.comparison-table {margin-top: -2px; }}"
+      ],
+      "name": "Comparison Table",
+      "settings": {
+        "eyebrow": "What Sets Us Apart",
+        "heading": "Uvora vs. Other Brands",
+        "btn_text": "SUPPORT YOUR LIVER NOW →",
+        "btn_link": "#product-offer",
+        "btn_footnotes": "90-day money back guarantee",
+        "feat_img": "shopify://shop_images/table-feat-img-1.webp",
+        "feat_img2": "shopify://shop_images/table-feat-img-2.webp",
+        "type": "dark",
+        "bg_color": "#a9c313",
+        "bg_img": "shopify://shop_images/ingredient-bg.webp",
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "product_offer": {
+      "type": "el-product-offer",
+      "blocks": {
+        "reviews_77rNAf": {
+          "type": "reviews",
+          "settings": {
+            "reviews": "Rated <a href=\"#reviews\" title=\"#reviews\">4.8/5.0 | Excellent</a>",
+            "margin_desktop": 16,
+            "margin_mobile": 12
+          }
+        },
+        "product_eyebrow_kk9TKq": {
+          "type": "product-eyebrow",
+          "settings": {
+            "eyebrow": "UVORA®",
+            "margin_desktop": 16,
+            "margin_mobile": 12
+          }
+        },
+        "product_title_HRVf6V": {
+          "type": "product-title",
+          "settings": {
+            "title": "Milk Thistle Detox",
+            "margin_desktop": 16,
+            "margin_mobile": 12
+          }
+        },
+        "product_description_GrtaH8": {
+          "type": "product-description",
+          "settings": {
+            "description": "<p>Feel lighter, think clearer, and wake up with energy that holds. Uvora supports your liver so everything downstream works better.</p>",
+            "margin_desktop": 16,
+            "margin_mobile": 12
+          }
+        },
+        "divider_k3p7TR": {
+          "type": "divider",
+          "settings": {
+            "color": "#b8d514",
+            "margin_desktop": 16,
+            "margin_mobile": 12
+          }
+        },
+        "product_lists_ytaBxH": {
+          "type": "product-lists",
+          "settings": {
+            "lists": "Liver Support\nBlood Sugar Support\nNatural Energy\nEase Bloating\nGut Health\nNatural Detox",
+            "margin_desktop": 0,
+            "margin_mobile": 0
+          }
+        },
+        "product_form_MctMjT": {
+          "type": "product-form",
+          "settings": {
+            "sub_title": "Save 20% with Automatic Refills",
+            "sub_description": "Zero Commitment, Cancel Anytime",
+            "btn_text": "ADD TO CART",
+            "btn_footnotes": "90-day money back guarantee",
+            "margin_desktop": 0,
+            "margin_mobile": 0
+          }
+        },
+        "qty_blocks_Tra9Rx": {
+          "type": "qty-blocks",
+          "settings": {
+            "image": "shopify://shop_images/uvora-b1-t1.webp",
+            "title": "Buy 1 Get <strong>1 Free</strong>",
+            "supply": "2 month supply",
+            "tag": "",
+            "discount_percentage": 50,
+            "quantity": 2,
+            "free_products": []
+          }
+        },
+        "qty_blocks_xGHzQy": {
+          "type": "qty-blocks",
+          "settings": {
+            "image": "shopify://shop_images/uvora-b2-t2.webp",
+            "title": "Buy 2 Get 2<strong> Free</strong>",
+            "supply": "4 month supply",
+            "tag": "Most Popular",
+            "discount_percentage": 50,
+            "quantity": 4,
+            "free_products": [
+              "liver-ebook"
+            ]
+          }
+        },
+        "qty_blocks_eLbpkV": {
+          "type": "qty-blocks",
+          "settings": {
+            "image": "shopify://shop_images/uvora-b3-t3.webp",
+            "title": "Buy 3 Get 3<strong> Free</strong>",
+            "supply": "6 month supply",
+            "tag": "BEST VALUE",
+            "discount_percentage": 50,
+            "quantity": 6,
+            "free_products": [
+              "liver-ebook",
+              "uvora-bloat-eliminiation-blueprint"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "reviews_77rNAf",
+        "product_eyebrow_kk9TKq",
+        "product_title_HRVf6V",
+        "product_description_GrtaH8",
+        "divider_k3p7TR",
+        "product_lists_ytaBxH",
+        "product_form_MctMjT",
+        "qty_blocks_Tra9Rx",
+        "qty_blocks_xGHzQy",
+        "qty_blocks_eLbpkV"
+      ],
+      "name": "Product Offer",
+      "settings": {
+        "product": "milk-thistle",
+        "enable_kaching": true,
+        "bg_color": "#f4f3e8",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "el_review_slider_kMbH7D": {
+      "type": "el-review-slider",
+      "blocks": {
+        "review_item_NinbAj": {
+          "type": "review-item",
+          "settings": {
+            "review_content": "“Since I started taking milk thistle bloating feeling has been significantly reduced and all digestive system feels relieved.”",
+            "reviewer_img": "shopify://shop_images/davidZ.webp",
+            "reviewer": "David Z",
+            "tags": "Great Customer Service\nTrustworthy"
+          }
+        },
+        "review_item_B3TL6d": {
+          "type": "review-item",
+          "settings": {
+            "review_content": "“My bloating has been significantly reduced and my whole digestive system feels relieved. I do recommend this formula.”",
+            "reviewer_img": "shopify://shop_images/ritaL.webp",
+            "reviewer": "Rita L",
+            "tags": "Less Bloating\nFeel Lighter"
+          }
+        },
+        "review_item_xd9g4b": {
+          "type": "review-item",
+          "settings": {
+            "review_content": "“Less bloating and more regular digestion. I've been feeling lighter and more energised every day.\"",
+            "reviewer_img": "shopify://shop_images/hannaR.webp",
+            "reviewer": "Hannah R",
+            "tags": "More Energy\nReduced Bloating"
+          }
+        },
+        "review_item_GV7wF8": {
+          "type": "review-item",
+          "settings": {
+            "review_content": "\"My energy is so much better. I used to crash every afternoon and now I actually make it through the day without feeling like a zombie.\"",
+            "reviewer_img": "shopify://shop_images/markT..webp",
+            "reviewer": "Mark T",
+            "tags": "Steady Energy\nNo More Crashes"
+          }
+        },
+        "review_item_PeQNpd": {
+          "type": "review-item",
+          "settings": {
+            "review_content": "\"I've been drinking for 20 years and my gut was a mess. Two months in and my digestion is smoother than it's been in years.\"",
+            "reviewer_img": "shopify://shop_images/jamesR.webp",
+            "reviewer": "James R",
+            "tags": "Better Digestion\nLong-Term User"
+          }
+        },
+        "review_item_ziLR9i": {
+          "type": "review-item",
+          "settings": {
+            "review_content": "\"The bloating after meals is basically gone. I don't look six months pregnant by dinner anymore. That alone was worth it.\"",
+            "reviewer_img": "shopify://shop_images/sarahM.webp",
+            "reviewer": "Sarah M",
+            "tags": "Reduced Bloating\nFeels Lighter"
+          }
+        },
+        "review_item_ExYGYQ": {
+          "type": "review-item",
+          "settings": {
+            "review_content": "\"My doctor noticed my liver numbers improved at my last checkup. I genuinely believe Uvora played a part in that.\"",
+            "reviewer_img": "shopify://shop_images/kevinL.webp",
+            "reviewer": "Kevin L",
+            "tags": "Improved Levels\nDoctor Approved"
+          }
+        },
+        "review_item_3EKQ3j": {
+          "type": "review-item",
+          "settings": {
+            "review_content": "\"I was skeptical but my brain fog has cleared up noticeably. I can actually focus at work again without five coffees.\"",
+            "reviewer_img": "shopify://shop_images/rachelD.webp",
+            "reviewer": "Rachel D",
+            "tags": "Mental Clarity\nLess Brain Fog"
+          }
+        },
+        "review_item_QnxiLP": {
+          "type": "review-item",
+          "settings": {
+            "review_content": "\"I sleep so much better now. I used to wake up 3 or 4 times a night. Now I'm down to maybe once. Life changing.\"",
+            "reviewer_img": "shopify://shop_images/paulW.webp",
+            "reviewer": "Paul W",
+            "tags": "Better Sleep\nLife Changing"
+          }
+        }
+      },
+      "block_order": [
+        "review_item_NinbAj",
+        "review_item_B3TL6d",
+        "review_item_xd9g4b",
+        "review_item_GV7wF8",
+        "review_item_PeQNpd",
+        "review_item_ziLR9i",
+        "review_item_ExYGYQ",
+        "review_item_3EKQ3j",
+        "review_item_QnxiLP"
+      ],
+      "disabled": true,
+      "name": "Review Slider",
+      "settings": {
+        "heading": "Customers Keep Choosing Uvora",
+        "enable_slider": false,
+        "bg_color": "#f4f3e8",
+        "padding_top": 0,
+        "padding_bottom": 120,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "el_faq_accordion_6eLRj6": {
+      "type": "el-faq-accordion",
+      "blocks": {
+        "accordion_item_RA3R8U": {
+          "type": "accordion-item",
+          "settings": {
+            "title": "How long before I notice a difference?",
+            "description": "<p>Most customers notice reduced bloating and smoother digestion within the first 1 to 2 weeks. Energy and clarity typically improve around weeks 3 to 6. For deeper liver support, 3 to 6 months of consistent use delivers the best results.</p>"
+          }
+        },
+        "accordion_item_dnAGpN": {
+          "type": "accordion-item",
+          "settings": {
+            "title": "Do I need to quit drinking for this to work?",
+            "description": "<p>No. Uvora is designed to meet you where you are. No quitting drinking, no crash diets. Reducing alcohol will support your liver further, but you'll notice benefits from Uvora on its own.</p>"
+          }
+        },
+        "accordion_item_A3yph4": {
+          "type": "accordion-item",
+          "settings": {
+            "title": "Why should I choose the 4 or 6 month supply?",
+            "description": "<p>Liver support is a process, not an event. The first 1 to 2 months start the clear. Deep cellular support happens from months 2 to 6. Most customers who report the biggest changes committed to at least 4 months.</p>"
+          }
+        },
+        "accordion_item_DrMYNi": {
+          "type": "accordion-item",
+          "settings": {
+            "title": "What makes Uvora different from other milk thistle supplements?",
+            "description": "<p>Our milk thistle is standardised to 80% silymarin, the clinical threshold. We use 8 active ingredients that protect and detox simultaneously. And we source naturally under the strictest regulations on the planet.</p>"
+          }
+        },
+        "accordion_item_e3PGEY": {
+          "type": "accordion-item",
+          "settings": {
+            "title": "Is this safe? Any side effects?",
+            "description": "<p>Uvora is made with 100% natural, plant-based ingredients. Vegan, non-GMO, and free from harsh additives. Third-party lab tested. Consult your healthcare provider if you're pregnant, nursing, or on medication.</p>"
+          }
+        },
+        "accordion_item_Jtgt6a": {
+          "type": "accordion-item",
+          "settings": {
+            "title": "Will this work if I've tried other supplements before?",
+            "description": "<p>Most liver supplements only address one piece of the problem. They either try to clear toxins or support liver health, but not both. Uvora's 8-ingredient formula was built to support the full cycle. That's why customers who gave up on other products often see results with Uvora.</p>"
+          }
+        },
+        "accordion_item_rhm93U": {
+          "type": "accordion-item",
+          "settings": {
+            "title": "How do I take it?",
+            "description": "<p>Take the recommended capsules daily with water, preferably with a meal. For best results, take at the same time each day.</p>"
+          }
+        },
+        "accordion_item_Bg7iWC": {
+          "type": "accordion-item",
+          "settings": {
+            "title": "What if it doesn't work for me?",
+            "description": "<p>Every order is protected by our 90-day money-back guarantee. No questions, no hassle. If you don't feel the difference, we'll refund every cent.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_item_RA3R8U",
+        "accordion_item_dnAGpN",
+        "accordion_item_A3yph4",
+        "accordion_item_DrMYNi",
+        "accordion_item_e3PGEY",
+        "accordion_item_Jtgt6a",
+        "accordion_item_rhm93U",
+        "accordion_item_Bg7iWC"
+      ],
+      "name": "FAQ Accordion",
+      "settings": {
+        "heading": "Frequently Asked Questions",
+        "description": "Got questions? We've got answers.",
+        "feat_img": "shopify://shop_images/accordion-feat.webp",
+        "feat_img_addon": "shopify://shop_images/accordion-feat-addon.webp",
+        "bg_color_outer": "#f4f3e8",
+        "bg_color": "#eeeddd",
+        "padding_top": 40,
+        "padding_bottom": 100,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 80
+      }
+    }
+  },
+  "order": [
+    "el_hero_section_3GnWVg",
+    "el_image_marquee_UMX8ei",
+    "el_review_slider_bEPgxk",
+    "el_why_us_N6JQpQ",
+    "el_info_content_C4wfWk",
+    "el_step_progress_VgGeta",
+    "el_icon_text_ykcgBf",
+    "el_progress_timeline_M99idP",
+    "el_ingredient_slider_tTchc9",
+    "el_table_comparison_CTEWwx",
+    "product_offer",
+    "el_review_slider_kMbH7D",
+    "el_faq_accordion_6eLRj6"
+  ]
+}

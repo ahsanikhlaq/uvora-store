@@ -1,0 +1,134 @@
+.money-back__container-inner {
+  padding: 60px 76px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+}
+.money-back__info-contents {
+  max-width: 512px;
+}
+.money-back__description {
+  color: #F4F3E8;
+  margin: 0 0 20px;
+}
+.money-back__heading {
+  color: #f4f3e8;
+  margin: 0 0 20px;
+  max-width: 368px;
+}
+.money-back__button a {
+  color: #2E2E2E;
+  background: #F4F3E8;
+  border-color: #F4F3E8;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 17px 16px;
+}
+.money-back__button a:hover {
+  background: transparent;
+  color: #F4F3E8;
+}
+.money-back__mny-img img {
+  display: block;
+  line-height: 1;
+  aspect-ratio: 1;
+  object-fit: contain;
+  max-width: 220px;
+  transform: rotate(9deg);
+}
+.money-back__feat-img {
+  max-width: 550px;
+  position: absolute;
+  right: 0;
+  bottom: -160px;
+}
+.money-back__feat-img.money-feat-addon {
+  max-width: 150px;
+  transform: rotate(16deg);
+  bottom: -52px;
+  right: 40px;
+  z-index: 1;
+}
+.money-back__container-inner:before {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='485' height='27' viewBox='0 0 485 27' fill='none'%3E%3Cmask id='mask0_9304_86' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='-461' y='0' width='1408' height='368'%3E%3Cpath d='M50.4964 7.83748e-05C46.1687 7.87532e-05 42.2714 2.34595 38.9584 5.1305C38.1185 5.83648 37.2183 6.49952 36.2578 7.11336L11.2949 23.0655C7.27484 25.6346 2.60388 27.0001 -2.16699 27.0001L-448 27.0001C-455.18 27.0001 -461 32.8204 -461 40.0001L-461 355C-461 362.18 -455.18 368 -448 368L934 368C941.18 368 947 362.18 947 355L947 40C947 32.8203 941.18 27 934 27L484.167 27C479.396 27 474.725 25.6345 470.705 23.0655L445.742 7.11333C444.782 6.49948 443.882 5.83644 443.042 5.13046C439.729 2.34592 435.831 4.46878e-05 431.504 4.50661e-05L50.4964 7.83748e-05Z' fill='%23424242'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_9304_86)'%3E%3Crect width='485' height='27' transform='matrix(-1 8.74228e-08 8.74228e-08 1 485 0)' fill='url(%23paint0_linear_9304_86)'/%3E%3C/g%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_9304_86' x1='110.061' y1='1.55633' x2='374.939' y2='1.55604' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%239EB711'/%3E%3Cstop offset='1' stop-color='%239EB711'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+  width: 485px;
+  height: 27px;
+  position: absolute;
+  top: -26px;
+  left: 50%;
+  transform: translate(-50%);
+  background-size: cover;
+  background-position: bottom center;
+}
+.money-back__container-inner:after {
+  content: '';
+  width: 100%;
+  height: 105px;
+  position: absolute;
+  left: 0;
+  bottom: -105px;
+}
+
+@media (max-width: 1350px) {
+  .money-back__container-inner {
+    padding: 60px 48px;
+    gap: 24px;
+  }
+  .money-back__mny-img img {
+    max-width: 180px;
+  }
+  .money-back__feat-img {
+    max-width: 400px;
+    bottom: -100px;
+  }
+  .money-back__feat-img.money-feat-addon {
+    max-width: 100px;
+    bottom: -40px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .money-back__info-contents {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 980px) {
+  .money-back__container-inner {
+    padding: 60px 16px 30px;
+    flex-direction: column-reverse;
+    gap: 12px;
+  }
+  .money-back__info-contents {
+    max-width: 100%;
+  }
+  .money-back__heading {
+    margin: 0 0 14px;
+    max-width: 100%;
+    text-align: center;
+  }
+  .money-back__description {
+    text-align: center;
+    margin: 0 0 14px;
+  }
+  .money-back__container-inner:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='211' height='34' viewBox='0 0 211 34' fill='none'%3E%3Cmask id='mask0_9304_88' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='-59' y='0' width='328' height='317'%3E%3Cpath d='M193.68 18.9189C197.471 28.4214 206.669 34.6551 216.899 34.6553H256C263.18 34.6553 269 40.4756 269 47.6553V304C269 311.18 263.18 317 256 317H-46C-53.1797 317 -59 311.18 -59 304V47.6553C-59 40.4756 -53.1797 34.6553 -46 34.6553H-6.75879C3.4719 34.6551 12.6699 28.4214 16.4609 18.9189L20.7442 8.18277C22.7156 3.24148 27.4987 0 32.8187 0H177.322C182.642 0 187.425 3.24149 189.396 8.18278L193.68 18.9189Z' fill='%23424242'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_9304_88)'%3E%3Crect width='211' height='34' fill='url(%23paint0_linear_9304_88)'/%3E%3C/g%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_9304_88' x1='181.988' y1='-8.83616' x2='170.897' y2='96.2869' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0.105896' stop-color='%239EB711' stop-opacity='0.97'/%3E%3Cstop offset='1' stop-color='%2395AC11'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E");
+    width: 211px;
+    height: 34px;
+    top: -33px;
+  }
+  .money-back__mny-img img {
+    max-width: 150px;
+    margin-top: -150px;
+  }
+}
+
+@media (max-width: 580px) {
+  .money-back__heading {
+    max-width: 266px;
+    margin-inline: auto;
+  }
+}

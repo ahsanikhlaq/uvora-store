@@ -1,0 +1,95 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "178d28a7-8c38-4b54-93d3-4f373de515b5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14588668117088__178d28a7-8c38-4b54-93d3-4f373de515b5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get in touch",
+            "heading_size": "h1"
+          }
+        },
+        "template--14588668117088__178d28a7-8c38-4b54-93d3-4f373de515b5-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Have a question or comment? Don't be shy: Reach out and say hi!<br/>Support hours: Monday-Friday, 7am-3pm</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14588668117088__178d28a7-8c38-4b54-93d3-4f373de515b5-heading-1",
+        "template--14588668117088__178d28a7-8c38-4b54-93d3-4f373de515b5-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 44
+      }
+    },
+    "contact_form_ikVfzk": {
+      "type": "contact-form",
+      "blocks": {
+        "name_xpy9qX": {
+          "type": "name",
+          "settings": {}
+        },
+        "email_kNDD6i": {
+          "type": "email",
+          "settings": {}
+        },
+        "tel_kqjman": {
+          "type": "tel",
+          "settings": {}
+        },
+        "textarea_N9xEPT": {
+          "type": "textarea",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "name_xpy9qX",
+        "email_kNDD6i",
+        "tel_kqjman",
+        "textarea_N9xEPT"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "sub_heading": "",
+        "sub_heading_align": "left",
+        "sub_heading_align_mobile": "left",
+        "color_scheme": "scheme-1cc0fa09-3abc-4542-a47a-dfef92ecbb21",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "178d28a7-8c38-4b54-93d3-4f373de515b5",
+    "contact_form_ikVfzk"
+  ]
+}

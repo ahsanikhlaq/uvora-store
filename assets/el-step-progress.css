@@ -1,0 +1,159 @@
+.step-progress__container {
+  padding: 50px 70px 60px 60px;
+  position: relative;
+  border-radius: 0 10px 10px 10px;
+  display: flex;
+  gap: 58px;
+  align-items: center;
+}
+.step-progress__img-container {
+  max-width: 550px;
+  display: block;
+}
+.step-progress__eyebrow {
+  color: #81950E;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+}
+.step-progress__heading {
+  color: #1C1C1A;
+  margin: 0 0 20px;
+}
+.step-progress__description {
+  margin: 0;
+}
+.step-progress__item-count {
+  color: #b4d014;
+  font-family: SF Pro;
+  font-size: 124px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 110%;
+  margin: 0 0 0 -10px;
+}
+.step-progress__item-title {
+  margin: 0;
+  font-size: 28px;
+  line-height: 110%;
+  font-weight: 500;
+  max-width: 150px;
+  display: grid;
+  grid-template-columns: auto 20px;
+  align-items: center;
+}
+.step-progress__item-description {
+  margin: 0;
+}
+.step-progress__contents {
+  margin-top: 40px;
+}
+.step-progress__item {
+  display: grid;
+  grid-template-columns: 150px auto;
+  grid-template-rows: auto auto;
+  row-gap: 0;
+  column-gap: 48px;
+}
+.step-progress__item > p:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+.step-progress__item > p:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+}
+.step-progress__item > p:nth-child(3) {
+  grid-column: 2;
+  grid-row: 2;
+}
+.step-progress__container:before {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='385' height='29' viewBox='0 0 385 29' fill='none'%3E%3Cmask id='mask0_9235_143' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='1408' height='697'%3E%3Cpath d='M375.776 24.9863C380.16 28.3846 385.548 30.2285 391.095 30.2285H1395C1402.18 30.2285 1408 36.0488 1408 43.2285V684C1408 691.18 1402.18 697 1395 697H13C5.82028 697 0 691.18 0 684V13C0 5.8203 5.8203 0 13 0H339.1C341.984 0 344.786 0.95903 347.065 2.72615L375.776 24.9863Z' fill='%23424242'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_9235_143)'%3E%3Crect width='385' height='29' fill='%23FAFAF5'/%3E%3C/g%3E%3C/svg%3E");
+  position: absolute;
+  top: -28px;
+  left: 0;
+  background-size: cover;
+  background-position: right;
+  width: 385px;
+  height: 29px;
+}
+
+@media (max-width: 1250px) {
+  .step-progress__img-container {
+    max-width: 450px;
+  }
+  .step-progress__container {
+    padding: 50px 0 50px 60px;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 980px) {
+  .step-progress__container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    padding: 0 20px;
+  }
+  .step-progress__eyebrow,
+  .step-progress__heading {
+    margin: 0 0 12px;
+  }
+  .step-progress__item-count {
+    font-size: 81px;
+    margin: 0 0 0 -4px;
+  }
+  .step-progress__item-title {
+    gap: 24px;
+    justify-items: end;
+    justify-self: end;
+    margin-bottom: 12px;
+  }
+  .step-progress__item {
+    grid-template-columns: 100px auto;
+    column-gap: 0;
+    align-items: end;
+  }
+  .step-progress__item > p:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .step-progress__item > p:nth-child(3) {
+    grid-column: 1 / span 2;
+  }
+  .step-progress__contents {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .step-progress__divider {
+    display: block!important;
+    background: linear-gradient(90deg, #81950E 0%, #FAFAF5 96.15%);
+    height: 1px;
+    margin-top: 24px;
+  }
+  .step-progress__heading {
+    font-size: 28px;
+  }
+  .step-progress__img-container {
+    margin-bottom: -130px;
+  }
+  .step-progress__info-container {
+    margin-top: -8px;
+    position: relative;
+    width: 100%;
+  }
+  .step-progress__container:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='230' height='35' viewBox='0 0 230 35' fill='none'%3E%3Cmask id='mask0_9235_144' style='mask-type:alpha' maskUnits='userSpaceOnUse' x='0' y='0' width='328' height='807'%3E%3Cpath d='M212.82 18.3506C216.4 28.2539 225.801 34.8524 236.331 34.8525H315C322.18 34.8525 328 40.6728 328 47.8525V794C328 801.18 322.18 807 315 807H13C5.82031 807 0 801.18 0 794V13C0 5.8203 5.8203 0 13 0H197.063C202.539 0 207.428 3.43124 209.289 8.58096L212.82 18.3506Z' fill='%23424242'/%3E%3C/mask%3E%3Cg mask='url(%23mask0_9235_144)'%3E%3Crect width='230' height='35' fill='%23FAFAF5'/%3E%3C/g%3E%3C/svg%3E");
+    top: -34px;
+    width: 230px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 580px) {
+  .step-progress__item-description {
+    max-width: 243px;
+  }
+}

@@ -1,0 +1,141 @@
+.hero-section__container {
+  padding: 60px 100px;
+  position: relative;
+  border-radius: 10px;
+}
+.hero-section__info-content {
+  max-width: 512px;
+  position: relative;
+  z-index: 1;
+}
+.hero-section__heading em {
+  color: #4D5A05;
+}
+.hero-section__heading {
+  margin: 0 0 20px;
+}
+.hero-section__reviews {
+  display: grid;
+  grid-template-columns: 102px auto;
+  gap: 8px;
+  align-items: center;
+  margin: 0 0 20px 10px;
+  font-weight: 400;
+  letter-spacing: 0.16px;
+  color: rgba(28, 28, 26, 0.60);
+}
+.hero-section__reviews a {
+  color: #1C1C1A;
+  text-decoration: unset;
+}
+.hero-section__description {
+  font-weight: 400;
+  margin: 0 0 20px;
+}
+.hero-section__usps {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 0 0 20px;
+  font-weight: 400;
+}
+.hero-section__usps span {
+  display: grid;
+  grid-template-columns: 14px auto;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 62px;
+  background: #F7FFCC;
+}
+.hero-section__button {
+  margin-left: 0;
+}
+.hero-section__img-content img {
+  max-width: 368px;
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+@media (max-width: 1250px) {
+  .hero-section__container {
+    padding: 60px 50px;
+  }
+  .hero-section__img-content img {
+    right: 50px;
+  }
+}
+
+@media (max-width: 980px) {
+  .hero-section__container {
+    padding: 20px 20px 12px;
+  }
+  .hero-section__container:after {
+    content: "";
+    background-image: linear-gradient(0deg, #0000000a 15%, transparent);
+    border-radius: 10px;
+    width: 100%;
+    height: 5%;
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+  }
+  .hero-section__info-content {
+    max-width: 100%;
+  }
+  .hero-section__heading {
+    margin: 0 0 16px;
+    text-align: center;
+  }
+  .hero-section__reviews {
+    grid-template-columns: 76.5px auto;
+    margin: 0 0 16px;
+    letter-spacing: 0.14px;
+    justify-content: center;
+  }
+  .hero-section__description {
+    text-align: center;
+    margin: 0 0 16px;
+  }
+  .hero-section__usps {
+    justify-content: center;
+    margin: 0 0 16px;
+    font-size: 12px;
+  }
+  .hero-section__usps span {
+    grid-template-columns: 11.375px auto;
+    gap: 4px;
+    padding: 5.5px 8px;
+  }
+  .hero-section__button {
+    margin-left: auto;
+  }
+  .hero-section__img-content {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .hero-section__img-content img {
+    position: relative;
+    top: 0;
+    right: 0;
+    transform: unset;
+  }
+}
+
+@media (max-width: 580px) {
+  .hero-section__heading {
+    max-width: 228px;
+    margin-inline: auto;
+  }
+  .hero-section__description {
+    max-width: 308px;
+    margin-inline: auto;
+  }
+  .hero-section__container {
+    padding: 20px 12px 12px;
+  }
+}
