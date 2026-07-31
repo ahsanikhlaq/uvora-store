@@ -687,7 +687,7 @@
       ],
       "name": "Product Offer",
       "settings": {
-        "product": "milk-thistle-old",
+        "product": "milk-thistle",
         "enable_kaching": true,
         "bg_color": "#f4f3e8",
         "padding_top": 60,
